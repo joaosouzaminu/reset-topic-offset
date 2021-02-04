@@ -9,7 +9,7 @@ The expected behaviour was for the consumer not to consume any messages after th
 - `consumer.js` - consumes messages from `my-test-topic` using groupId `my-test-group` and logs each message to console.
 - `admin.js` - tries to reset the offset for `my-test-group` to earliest.
 
-## Instalation 
+## Installation 
 
 After cloning the repo run `npm install` to get kafkajs.
 
